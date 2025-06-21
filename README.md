@@ -92,7 +92,7 @@ To run this project in a **development environment**, please follow these steps:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/CodeSmithAditya/react-native-auth-flow-template.git](https://github.com/CodeSmithAditya/react-native-auth-flow-template.git)
+    git clone https://github.com/CodeSmithAditya/react-native-auth-flow-template.git
     ```
 
 2.  **Navigate to the project directory:**
@@ -131,12 +131,12 @@ npx expo build
 ```
 
 You can also build for specific platforms:
-# For Android
+### For Android
 ```bash
 npx expo build:android
 ```
 
-# For iOS
+### For iOS
 ```bash
 npx expo build:ios
 ```
