@@ -78,6 +78,69 @@ A preview of the private dashboard screen visible after a successful login:
     - `.gitignore`: Specifies files for Git to ignore.
 ---
 
+## ⚙️ Setup and Installation
+
+To run this project in a **development environment**, please follow these steps:
+
+### Prerequisites
+
+-   [Node.js](https://nodejs.org/) (LTS version recommended)
+-   [Expo Go](https://expo.dev/go) app on your iOS or Android device.
+-   A package manager like npm or Yarn.
+
+### Installation
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/CodeSmithAditya/react-native-auth-flow-template.git](https://github.com/CodeSmithAditya/react-native-auth-flow-template.git)
+    ```
+
+2.  **Navigate to the project directory:**
+    ```bash
+    cd react-native-auth-flow-template
+    ```
+
+3.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+
+### Running for Development
+
+1.  **Start the Metro server:**
+    ```bash
+    npx expo start
+    ```
+
+2.  **Connect your device:**
+    -   Ensure your computer and your mobile device are on the **same Wi-Fi network**.
+    -   Open the **Expo Go** app on your device.
+    -   Scan the QR code displayed in the terminal.
+
+---
+
+## 📦 Building for Production
+
+The instructions above are for running the app in a development environment. To create a standalone app file (`.apk` or `.ipa`) for distribution on the Google Play Store or Apple App Store, you would use Expo's build service.
+
+This process packages all the code and assets into a single, installable application that runs independently without the need for a development server.
+
+The basic command to start a build is:
+```bash
+npx expo build
+```
+
+You can also build for specific platforms:
+# For Android
+```bash
+npx expo build:android
+```
+
+# For iOS
+```bash
+npx expo build:ios
+```
+
 ## 📥 How to Contribute
 
 1. 🍴 Fork the repository
