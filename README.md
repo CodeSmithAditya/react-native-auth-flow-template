@@ -135,12 +135,12 @@ You can also build for specific platforms:
 ```bash
 npx expo build:android
 ```
-
 #### For iOS
 ```bash
 npx expo build:ios
 ```
 
+---
 ## 📥 How to Contribute
 
 1. 🍴 Fork the repository
