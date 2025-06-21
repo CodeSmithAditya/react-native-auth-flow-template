@@ -62,7 +62,20 @@ A preview of the private dashboard screen visible after a successful login:
 
 ## 🧩 Folder Structure
 
-LoginScreenApp/ ├── assets/                  # Static assets like the logo │   └── logo.png ├── screenshots/             # App screenshots for the README ├── node_modules/            # Project dependencies (ignored by Git) ├── App.js                   # Main navigator and app entry point ├── AuthContext.js           # Global state and logic for authentication ├── WelcomeScreen.js         # Initial landing screen component ├── LoginScreen.js           # Login screen component ├── SignUpScreen.js          # User registration screen component ├── ForgotPasswordScreen.js  # Password reset screen component ├── HomeScreen.js            # Private dashboard screen component ├── .gitignore               # Specifies files for Git to ignore ├── package.json             # Project metadata and dependencies └── README.md
+- **`/assets`**: Contains static assets like the application logo.
+- **`/screenshots`**: Contains the screenshots used in this README file.
+- **`AuthContext.js`**: The global state and logic for handling all authentication.
+- **`App.js`**: The root component that sets up the main navigator.
+- **Screen Components**:
+    - `WelcomeScreen.js`
+    - `LoginScreen.js`
+    - `SignUpScreen.js`
+    - `ForgotPasswordScreen.js`
+    - `HomeScreen.js`
+- **Configuration Files**:
+    - `package.json`: Project metadata and dependencies.
+    - `app.json`: Expo configuration file.
+    - `.gitignore`: Specifies files for Git to ignore.
 ---
 
 ## 📥 How to Contribute
