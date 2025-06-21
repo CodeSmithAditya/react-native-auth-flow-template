@@ -96,14 +96,14 @@ export default function ForgotPasswordScreen({ navigation }) {
         />
 
         <View style={styles.passwordContainer}>
-          <TextInput style={styles.passwordInput} placeholder="New Password" value={newPassword} onChangeText={setNewPassword} secureTextEntry={!isPasswordVisible} />
+          <TextInput style={styles.passwordInput} placeholder="New Password" placeholderTextColor="#aaa" value={newPassword} onChangeText={setNewPassword} secureTextEntry={!isPasswordVisible} />
           <TouchableOpacity onPress={() => setIsPasswordVisible(!isPasswordVisible)} style={styles.eyeIcon}>
             <Icon name={isPasswordVisible ? 'eye-outline' : 'eye-off-outline'} size={24} color="#888" />
           </TouchableOpacity>
         </View>
 
         <View style={styles.passwordContainer}>
-          <TextInput style={styles.passwordInput} placeholder="Confirm New Password" value={confirmPassword} onChangeText={setConfirmPassword} secureTextEntry={!isConfirmPasswordVisible} />
+          <TextInput style={styles.passwordInput} placeholder="Confirm New Password" placeholderTextColor="#aaa" value={confirmPassword} onChangeText={setConfirmPassword} secureTextEntry={!isConfirmPasswordVisible} />
           <TouchableOpacity onPress={() => setIsConfirmPasswordVisible(!isConfirmPasswordVisible)} style={styles.eyeIcon}>
             <Icon name={isConfirmPasswordVisible ? 'eye-outline' : 'eye-off-outline'} size={24} color="#888" />
           </TouchableOpacity>
