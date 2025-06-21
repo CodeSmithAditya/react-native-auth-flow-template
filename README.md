@@ -131,12 +131,12 @@ npx expo build
 ```
 
 You can also build for specific platforms:
-### For Android
+#### For Android
 ```bash
 npx expo build:android
 ```
 
-### For iOS
+#### For iOS
 ```bash
 npx expo build:ios
 ```
